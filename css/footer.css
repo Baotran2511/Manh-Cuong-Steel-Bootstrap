@@ -27,20 +27,16 @@ h5{
 .icon{
     margin-right: 15px;
 }
-.icon-network{
+.icon-social{
     text-align: left;
+
 }
-.icon-network ul{
-    list-style: none;
-    display: flex;
-    
+.icon-social i{
+    margin-left: 30px;
+    font-size: 20px ;
+    margin-top: 40px;
 }
-.icon-network ul li i{
-    margin-right: 30px;
-    font-size: 17px;
-    margin-left: 0;
-    margin-top: 20px;
-}
+
 .site-map{
     color:white;
     text-align: left;
@@ -49,9 +45,11 @@ h5{
     font-size: 13px;
     margin-left: 10px;
     padding-left: 30px;
+    text-transform: none;
 }
 .site-map ul li{
     padding:  10px;
+    margin-bottom: 10px;
 }
 .footer-product{
     color:white;
@@ -60,10 +58,56 @@ h5{
     margin-top: 5px;
     font-size: 13px;
     margin-left: 10px;
+    text-transform: none;
 }
 .footer-product ul li{
     padding:  10px;
+    margin-bottom: 10px;
 }
 .fanpage .fb{
     margin-top: 30px;
+}
+.info .ad::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f041";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    color:#fbca00;
+    margin-right: 20px;
+}
+.info .phone::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f095";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    color:#fbca00;
+    margin-right: 20px;
+}
+.info .gmail::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    color:#fbca00;
+    margin-right: 20px;
+}
+.site-map .map::before,
+.footer-product .map::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 8px;
+    color:#fbca00;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
