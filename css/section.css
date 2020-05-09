@@ -77,7 +77,8 @@ p{
     display: flex;
     background-color: #222326;
     justify-content: space-between;
-    color:#f2f1f1
+    color:#f2f1f1;
+    
 }
 .text{
     display: block;
@@ -137,3 +138,4 @@ p{
 .product a{
     text-decoration: none;
 }
+
